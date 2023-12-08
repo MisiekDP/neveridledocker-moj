@@ -10,4 +10,4 @@ RUN wget https://github.com/layou233/NeverIdle/releases/download/0.2.3/NeverIdle
 RUN chmod 777 /usr/local/bin/NeverIdle
 
 # Run the script with default arguments
-CMD ["/bin/sh", "-c", "/usr/local/bin/NeverIdle -cp 0.25 -m 3 -n 4h"]
+CMD ["/bin/sh", "-c", "/usr/local/bin/NeverIdle -cp 0.25 -m 3.5 -n 4h"]
